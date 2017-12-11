@@ -5,10 +5,10 @@
     
     function trim(string) {
       if (!string) {
-        return string
+        return string;
       }
       if (string) {
-        return string.trim()
+        return string.trim();
       }
       return (string + "").replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g, "");
     }
